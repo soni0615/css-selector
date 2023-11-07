@@ -1,0 +1,33 @@
+nav a {
+  color: red;
+}
+nav > h2 {
+  background-color: brown;
+  color: rgb(182, 182, 182);
+}
+div + p {
+  color: red;
+}
+a[href="#"] {
+  text-decoration: none;
+  color: red;
+}
+a[class="active"] {
+  text-decoration: underline;
+  color: rgb(14, 104, 13);
+  font-style: italic;
+}
+a[target="_self"] {
+  background-color: rgb(196, 198, 194);
+}
+
+p:last-child::after {
+  content: " ...";
+}
+li {
+  color: rgb(127, 131, 35);
+}
+p:nth-child(even)::first-letter {
+  font-size: 30px;
+  color: red;
+}
