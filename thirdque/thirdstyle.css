@@ -1,0 +1,6 @@
+h1::before{
+    content: "pseudo";
+}
+h1::after{
+    content: "selector";
+}
